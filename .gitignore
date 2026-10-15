@@ -1,1 +1,10 @@
 .DS_Store
+./config/.DS_Store
+./data/.DS_Store
+./output/.DS_Store
+./src/.DS_Store
+./src/scanner/.DS_Store
+./worksheet/.DS_Store
+./data/
+./output/
+__pycache__

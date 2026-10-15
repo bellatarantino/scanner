@@ -1,0 +1,59 @@
+convert:
+  dpi: 200
+
+image:
+  width_px: 1000              
+
+aruco:
+  dictionary: DICT_4X4_50
+  corner_ids:
+    top_left: 0
+    top_right: 1
+    bottom_right: 2
+    bottom_left: 3
+
+regions:
+  tens:       [0.265, 0.195, 0.505, 0.235]
+  ones:       [0.265, 0.242, 0.755, 0.285]
+  q1:         [0.08,  0.350, 0.85,  0.410]
+  q2:         [0.08,  0.470, 0.815, 0.530]
+  q3:         [0.08,  0.590, 0.84,  0.650]
+  q4:         [0.08,  0.700, 0.87,  0.770]
+  target_1:   [0.15,  0.945, 0.31,  0.995]
+  target_2:   [0.33,  0.945, 0.49,  0.995]
+  transfer_1: [0.51,  0.945, 0.67,  0.995]
+  transfer_2: [0.70,  0.945, 0.85,  0.995]
+
+bubbles:
+  tens: 5
+  ones: 10
+  q1: 3
+  q2: 3
+  q3: 3
+  q4: 5
+  target_1: 5
+  target_2: 5
+  transfer_1: 5
+  transfer_2: 5
+
+stretch:
+  percentiles: [1, 99]
+
+hough:
+  median_blur: 5
+  dp: 1
+  min_dist: 15
+  param1: 100
+  param2: 18
+  min_radius: 7
+  max_radius: 13
+
+scoring:
+  mask_radius: 0.8             
+  filled_ratio: 0.8            
+
+output:
+  folder: ./output/
+  filename: results.csv
+  columns: [path, school, class, student_number, error,
+            q1, q2, q3, q4, target_1, target_2, transfer_1, transfer_2]
