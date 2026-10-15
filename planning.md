@@ -8,7 +8,9 @@
 ### Oct 5 - Oct 9 
 
 - [x] Update GitHub 
-- [ ] Make new resume 
+- [x] Make new resume 
+- [x] Update LinkedIn
+- [x] Message folks
 - [x] Make worksheet  
 - [x] Identify scanning method 
 - [x] Test out worksheet & identify possible issues 
@@ -23,13 +25,13 @@
         - [ ] Missing answers 
         - [ ] Multiple students with the same student number in the same batch 
         - [ ] Bad scans / unable to reorient 
-- [ ] Update worksheet to match students' needs 
-    - [ ] Update "year" to be "grade"
-    - [ ] Make sure to specify name is in romaji
-    - [ ] Edit instructions to be clear they should be honest & it's anonymous
-    - [ ] Update "fun" question 
-    - [ ] Update translation on "sometimes focus" 
-    - [ ] Update scoring system 
+- [x] Update worksheet to match students' needs 
+    - [x] Update "year" to be "grade"
+    - [x] Make sure to specify name is in romaji
+    - [x] Edit instructions to be clear they should be honest & it's anonymous
+    - [x] Update "fun" question 
+    - [x] Update translation on "sometimes focus" 
+    - [x] Update scoring system 
 
 ### Oct 12 - Oct 16
 
