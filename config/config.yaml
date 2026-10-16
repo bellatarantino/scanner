@@ -55,5 +55,5 @@ scoring:
 output:
   folder: ./output/
   filename: results.csv
-  columns: [path, school, class, student_number, error,
+  columns: [path, school, class, student_number, error, lesson_type
             q1, q2, q3, q4, target_1, target_2, transfer_1, transfer_2]

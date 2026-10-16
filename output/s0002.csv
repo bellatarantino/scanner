@@ -1,6 +1,0 @@
-path,school,class,student_number,error,q1,q2,q3,q4,target_1,target_2,transfer_1,transfer_2
-p01,Omonogawa,02,09,False,1,1,1,2,4,4,4,4
-p02,Omonogawa,02,10,False,2,1,2,2,4,4,4,4
-p03,Omonogawa,02,03,True,2,2,,1,4,4,4,4
-p04,Omonogawa,02,08,False,2,1,2,3,4,4,4,4
-p05,Omonogawa,02,07,False,2,2,2,2,4,4,3,3
