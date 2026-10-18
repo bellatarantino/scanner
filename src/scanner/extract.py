@@ -51,7 +51,7 @@ def detect(region, config):
     """
     Finds circles in a region, sorted left to right.
         region:     image array
-        hough:      Hough settings
+        config:     config file containing hough settings
     """
     settings = config["hough"]
 
