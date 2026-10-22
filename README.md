@@ -1,4 +1,4 @@
-<img src='./worksheet/furikaeri final version.svg' style='background-color:#ffffff'>
+<img src='./worksheet/furikaeri final version.jpg'>
 
 <em>Furikaeri Final Version</em>
 
