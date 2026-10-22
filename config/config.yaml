@@ -13,28 +13,26 @@ aruco:
     bottom_left: 3
 
 regions:
-  tens:       [0.265, 0.195, 0.505, 0.235]
-  ones:       [0.265, 0.242, 0.755, 0.285]
-  q1:         [0.08,  0.350, 0.85,  0.410]
-  q2:         [0.08,  0.470, 0.815, 0.530]
-  q3:         [0.08,  0.590, 0.84,  0.650]
-  q4:         [0.08,  0.700, 0.87,  0.770]
-  target_1:   [0.15,  0.945, 0.31,  0.995]
-  target_2:   [0.33,  0.945, 0.49,  0.995]
-  transfer_1: [0.51,  0.945, 0.67,  0.995]
-  transfer_2: [0.70,  0.945, 0.85,  0.995]
+  q1:       [0.5, 0.195, 0.91, 0.25]
+  q2:       [0.5, 0.3, 0.91, 0.36]
+  q3:       [0.5, 0.41, 0.91, 0.47]
+  q4:       [0.5, 0.52, 0.91, 0.575]
+  q5:       [0.5, 0.625, 0.91, 0.68]
+  q6:       [0.5, 0.73, 0.91, 0.79]
+  q7:       [0.5, 0.84, 0.91, 0.89]
+  target:   [0.33,  0.935, 0.49,  0.995]
+  transfer:   [0.51,  0.935, 0.67,  0.995]
 
 bubbles:
-  tens: 5
-  ones: 10
-  q1: 3
-  q2: 3
-  q3: 3
-  q4: 5
-  target_1: 5
-  target_2: 5
-  transfer_1: 5
-  transfer_2: 5
+  q1: 7
+  q2: 7
+  q3: 7
+  q4: 7
+  q5: 7
+  q6: 7
+  q7: 7
+  target: 5
+  transfer: 5
 
 stretch:
   percentiles: [1, 99]
@@ -49,11 +47,11 @@ hough:
   max_radius: 13
 
 scoring:
-  mask_radius: 0.8             
+  mask_radius: 0.8            
   filled_ratio: 0.8            
 
 output:
   folder: ./output/
   filename: results.csv
-  columns: [path, school, class, student_number, error, lesson_type
-            q1, q2, q3, q4, target_1, target_2, transfer_1, transfer_2]
+  columns: [path, school, class, error, lesson_id,
+            q1, q2, q3, q4, q5, q6, q7, target, transfer]
