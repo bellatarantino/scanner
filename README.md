@@ -1,4 +1,4 @@
-<img src='./worksheet/furikaeri final version.jpg'>
+<img src='./worksheet/furikaeri final version.png'>
 
 <em>Furikaeri Final Version</em>
 
