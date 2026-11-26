@@ -44,7 +44,7 @@ A page is flagged `error` if alignment fails, the bubble count for any field is 
 
 ## Furikaeri
 
-Print from `furikaeri/`. The four ArUco corner markers (`DICT_4X4_50`, IDs 0--3) must be visible in every scan.
+Print from `furikaeri/`. The four ArUco corner markers (`DICT_4X4_50`, IDs 0-3) must be visible in every scan.
 
 <img src="assets/furikaeri/furikaeri_final_version.png">
 
