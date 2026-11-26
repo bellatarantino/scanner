@@ -37,14 +37,14 @@ The file to scan, school code, class code, lesson code, and output folder are up
 | `path` | Page name (`p01`, `p02`, …) |
 | `school`, `class`, `lesson_id` | From command line flags |
 | `error` | `True` if the page needs manual review |
-| `q1`–`q7` | Selected bubble (0-6) |
+| `q1`-`q7` | Selected bubble (0-6) |
 | `target`, `transfer` | Selected bubble (0-4)|
 
 A page is flagged `error` if alignment fails, the bubble count for any field is wrong, or a question has 0 or 2+ marks.
 
 ## Furikaeri
 
-Print from `furikaeri/`. The four ArUco corner markers (`DICT_4X4_50`, IDs 0–3) must be visible in every scan.
+Print from `furikaeri/`. The four ArUco corner markers (`DICT_4X4_50`, IDs 0--3) must be visible in every scan.
 
 <img src="assets/furikaeri/furikaeri_final_version.png">
 
